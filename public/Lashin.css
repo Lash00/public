@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+}
+img{
+    width: 100%;
+    height: 100vh;
+object-fit: fill;
+}
+/* .container{
+    width: 40%;
+    height: 500px;
+    border: 2px solid black;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Photo/Lover-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+} */
+.container {
+    position: absolute;
+    width: 40%;
+    height: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    left: 35%;
+    top: 55px;
+    text-align: center;
+    border-radius: 37px;
+    box-shadow: 1px 4px 9px 5px;
+}
+p{
+    font-size: 3rem;
+    margin-bottom: 10px;
+    width: 100%;
+    font-weight: bolder;
+    color: red;
+}
+.fem{
+    /* margin-bottom: 15px; */
+    margin-top: 10px;
+}
+.lov{
+    color: red;
+}
+input[type="text"]{
+    width: 70%;
+    padding: 10px;
+    border-radius: 21px;
+    border: 4px solid;
+    /* border-color: rgb(0, 153, 255); */
+    border-color: #736666;
+}
+input[type="button"]{
+    width: 50px;
+    background-color: #d4d4d4;
+    color: red;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    margin-right: 15px;
+    padding: 15px;
+    border-radius: 45px;
+    border: none;
+    -webkit-border-radius: 45px;
+    -moz-border-radius: 45px;
+    -ms-border-radius: 45px;
+    -o-border-radius: 45px;
+}
+.container div{
+    text-align: center;
+}
+.ans{
+    width: 70%;
+    padding: 20px;
+    border-radius: 21px;
+    border: none;
+    text-align: center;
+    background-color: white;
+}
+@media (max-width: 475px) {
+p{
+font-size: 1rem;
+}
+.container{
+    width: 100%;
+    left: 0;
+}
+}
+
+@media (max-width: 920px) {
+    p{
+      font-size: 1.5rem;
+      }
+      
+      /* Styles for medium screens */
+    }
+    @media (max-width: 245px) {
+        
+        p{
+          width: 50%;
+          }
+    /* Styles for large screens */
+  }
